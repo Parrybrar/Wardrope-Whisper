@@ -1,0 +1,48 @@
+# Node
+node_modules/
+**/node_modules/
+.npm/
+.npmrc
+npm-debug.log*
+yarn.lock
+pnpm-lock.yaml
+
+# TypeScript build
+**/dist/
+*.tsbuildinfo
+
+# Expo/React Native
+.expo/
+.expo-shared/
+*.expo/*
+*.apk
+*.aab
+*.ipa
+
+# Logs
+logs
+*.log
+lerna-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python
+**/.venv/
+**/__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Env
+.env
+**/.env
+
+# Jest
+coverage/
+
+# Misc
+.vscode/
+.idea/
+*.swp
